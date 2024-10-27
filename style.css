@@ -1,0 +1,139 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background: #333;
+  padding: 10px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Home Section */
+#home {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#home h1 {
+  font-size: 2.5em;
+}
+
+#home p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Portfolio Section */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project {
+  width: 200px;
+  text-align: center;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Contact Section */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Projects Page */
+.project-detail {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.project-detail img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-detail h2 {
+  color: #333;
+  font-size: 1.8em;
+}
+
+.project-detail p {
+  font-size: 1em;
+  color: #666;
+  margin-top: 10px;
+}
+.long{
+  text-align: center;
+}
